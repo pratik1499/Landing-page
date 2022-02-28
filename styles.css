@@ -22,9 +22,17 @@
   margin-right: 8px;
   color: #f9faf8;
 }
+.nav-items p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .nav-logo h2 {
   font-size: 24px;
   color: #f9faf8;
+}
+.nav-logo :hover {
+  cursor: pointer;
 }
 .hero {
   display: flex;
@@ -52,6 +60,11 @@
   font-weight: bold;
   color: #f9faf8;
 }
+.hero-txt button:hover {
+  cursor: pointer;
+  background-color: #0461f7;
+}
+
 .hero-img {
   position: relative;
   right: 8em;
@@ -156,7 +169,7 @@
 }
 .box-content button {
   background-color: #3882f6;
-  border-color: #f9faf8;
+  border-color: white;
   border-radius: 6px;
   padding-left: 25px;
   padding-right: 25px;
@@ -164,6 +177,11 @@
   padding-bottom: 5px;
   font-weight: bold;
   color: #f9faf8;
+}
+
+.box-content button:hover {
+  cursor: pointer;
+  background-color: #0461f7;
 }
 .footer {
   display: flex;
